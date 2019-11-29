@@ -1,0 +1,2 @@
+data modify storage nbtcomp:compare Temp set from storage nbtcomp:compare Compare.DataL
+execute store success score #nbtcomp.compare.result nbtcomp.var run data modify storage nbtcomp:compare Temp set from storage nbtcomp:compare Compare.DataR

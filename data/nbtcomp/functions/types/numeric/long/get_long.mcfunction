@@ -1,0 +1,3 @@
+# Split the longs into a high and low part.
+execute positioned -30000000 0 1600 align xyz positioned ~0.5 ~0.5 ~0.5 unless entity @e[distance=..0.1, tag=nbtcomp.entity, limit=1] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["nbtcomp.entity"], Age: -2147483648, Duration: -1, WaitTime: -2147483648}
+execute positioned -30000000 0 1600 align xyz positioned ~0.5 ~0.5 ~0.5 as @e[distance=..0.1, tag=nbtcomp.entity, limit=1] run function nbtcomp:types/numeric/long/split_long

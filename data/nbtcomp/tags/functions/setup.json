@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "nbtcomp:setup/scoreboard/objectives",
+        "nbtcomp:setup/storage/args",
+        "nbtcomp:setup/storage/compare",
+        "nbtcomp:setup/forceload/forceload",
+        "nbtcomp:setup/scoreboard/variables"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "typeid:setup/scoreboard",
+        "typeid:setup/storage"
+    ]
+}
