@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 5,
-        "description": "Datapack Template"
+        "description": "A datapack for comparing various types of NBT values."
     }
 }
