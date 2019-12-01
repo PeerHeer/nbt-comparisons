@@ -1,4 +1,5 @@
 # Author: PeerHeer
+#
 # Sets up the storage for typeid.
 
 # The nbtcomp:typeid.args storage is used for user input.
