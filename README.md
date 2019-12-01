@@ -3,7 +3,7 @@
 A datapack that can compare two NBT values.  
 
 This datapack can compare any two values of any **numeric** data type. This includes `byte`, `short`, `int`, `long`, `float` and `double`. If the value does not have a numeric data type (e.g. `list` or `compound`), the lengths of these values are compared. Generic data types which include `string`, `list`, `compound`, `byte_array`, `int_array` and `long_array` are compared using their length.  
-The type of comparison done is automatically determined by the type of the values using a modified version of the [NBT type identifier](https://github.com/PeerHeer/nbt-type-identifier), which has a cache size of 2 and uses a hard-coded function list of types for better performance.  
+The type of comparison done is automatically determined by the type of the values, which are obtained using a modified version of the [NBT type identifier](https://github.com/PeerHeer/nbt-type-identifier), which has a cache size of 2 and uses a hard-coded function list of types for better performance.  
 
 This datapack uses `forceload`, which means that OP level 3 or higher is required to install it. When first loading the datapack, a popup will prompt all players to install it by clicking on said popup. As mentioned previously, this requires OP level 3 or higher to work.
 
