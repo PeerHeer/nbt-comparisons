@@ -28,6 +28,10 @@ The function output is determined by the values in the `DataL` and `DataR` field
 - If `DataL` and `DataR` cannot be compared, the result is `2`. This is the case when one of the data types is numeric an the other one is generic.
 In essence, the result value "points to" the `Data` field that contains the smaller value.
 
+## Supported values
+Supported values are restricted by the minimum and maximum values that the corresponding data types support. In the case of this datapack, `doubles` and `floats` are limited by the maximum and minimum values of a `long`. This means that a floating-point number that exceeds the capabilities of a 32-bit number can still be compared (although with limited precision).  
+Comparison of floating-point numbers can be done up to 9 decimal places, with a precision of at least 15 (`double`) or 6 (`float`) significant figures.
+
 ## How it works
 ### Numeric comparison
 #### Representation
