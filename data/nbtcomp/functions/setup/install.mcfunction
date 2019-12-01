@@ -8,4 +8,4 @@ function #nbtcomp:setup
 # Do cleanup
 scoreboard players set #nbtcomp.installed nbtcomp.var 1
 schedule clear nbtcomp:setup/prompt
-tellraw @p ["",{"text":"NBT compare installed successfully!","color":"green"}]
+tellraw @p ["",{"text":"NBT comparisons installed successfully!","color":"green"}]
