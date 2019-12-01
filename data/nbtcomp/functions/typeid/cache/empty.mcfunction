@@ -1,1 +1,0 @@
-data modify storage nbtcomp:typeid.cache Entry set value []

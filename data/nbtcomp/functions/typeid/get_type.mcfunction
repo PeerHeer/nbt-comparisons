@@ -1,5 +1,4 @@
 # Author: PeerHeer
-#> get_type.mcfunction
 # Gets the type of the NBT data stored in typeid:args Data.
 #
 # Checks types in the following order:
@@ -16,8 +15,7 @@
 # 11. Int Array
 # 12. Long Array
 
-# Setup typeid:iterator to iterate over the TypeList
-# data modify storage nbtcomp:typeid.iterator Iterable set from storage nbtcomp:typeid.types TypeList
+# Initalize type_id to -1
 scoreboard players set #nbtcomp.typeid.type_id nbtcomp.var -1
 
 # Check if the type is already in the cache.
