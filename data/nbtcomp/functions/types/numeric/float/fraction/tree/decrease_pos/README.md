@@ -14,5 +14,5 @@ Using this structure has one main advantage: it is faster (in most cases) than r
 
 In short, using powers of two ensures that all numbers are reduced to 0 in at most 30 steps.
 
-### Acknowledgements
-Special thanks to [Maxaxik](https://github.com/maxaxik) for coming up with the idea to store the number in the Y position of an entity and then reducing it to 0.
+## Acknowledgements
+Special thanks to [Maxaxik](https://github.com/maxaxik) for coming up with the idea to store the number in the Y position of an entity and then reducing it to 0 to get the fractional part of a number.
