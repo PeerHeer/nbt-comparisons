@@ -47,7 +47,7 @@ The fractional part contains up to 9 decimal places.
 #### Comparison
 1. The higher integral parts are compared. If these are not equal, the comparison yields a result immediately. Otherwise, go to step 2.
 2. The lower integral parts are compared. If these are not equal, the comparison yields a result. Otherwise, go to step 3.
-3. The fractional parts are compared and the final result is returned.
+3. If at least one of the numbers is a `float` or `double`, the fractional parts are compared and the final result is returned.
 
 ### Generic comparison
 #### Representation
