@@ -1,5 +1,5 @@
-data modify storage nbtcomp:compare Compare.DataL set from storage nbtcomp:args DataL
-data modify storage nbtcomp:compare Compare.DataR set from storage nbtcomp:args DataR
+data modify storage nbtcomp:compare Compare.DataL set from storage nbtcomp:input DataL
+data modify storage nbtcomp:compare Compare.DataR set from storage nbtcomp:input DataR
 
 # Step 1: check if the values are exactly equal.
 function nbtcomp:compare/generic/compare_equal

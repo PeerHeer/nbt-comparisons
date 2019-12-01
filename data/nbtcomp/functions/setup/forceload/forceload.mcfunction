@@ -1,4 +1,5 @@
-#> setup/forceload/forceload.mcfunction
+# Author: PeerHeer
+#
 # Forceload chunks in all dimensions.
 # Forceloading the chunks is required for comparing Longs and Floats using an entity.
 
