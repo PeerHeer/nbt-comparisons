@@ -4,6 +4,7 @@
         "nbtcomp:setup/scoreboard/objectives",
         "nbtcomp:setup/storage/input",
         "nbtcomp:setup/storage/compare",
+        "nbtcomp:typeid/setup/storage",
         "nbtcomp:setup/forceload/forceload",
         "nbtcomp:setup/scoreboard/variables"
     ]

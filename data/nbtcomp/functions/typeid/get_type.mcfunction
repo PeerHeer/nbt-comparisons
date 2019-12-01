@@ -17,11 +17,12 @@
 # 12. Long Array
 
 # Setup typeid:iterator to iterate over the TypeList
-data modify storage typeid:iterator Iterable set from storage typeid:types TypeList
+# data modify storage nbtcomp:typeid.iterator Iterable set from storage nbtcomp:typeid.types TypeList
+scoreboard players set #nbtcomp.typeid.type_id nbtcomp.var -1
 
 # Check if the type is already in the cache.
-function typeid:check_types/cache/check
+function nbtcomp:typeid/cache/check
 
 # If the type is not already in the cache, start iterating over the possible types.
-execute if score #typeid.success typeid.var matches 0 run function typeid:check_types/iterator/iterate
+execute if score #nbtcomp.typeid.type_id nbtcomp.var matches -1 run function nbtcomp:typeid/check_types/check_double
 
