@@ -2,7 +2,7 @@ data modify storage nbtcomp:compare Compare.DataL set from storage nbtcomp:input
 data modify storage nbtcomp:compare Compare.DataR set from storage nbtcomp:input DataR
 
 # Step 1: check if the values are exactly equal.
-function nbtcomp:compare/generic/compare_equal
+function nbtcomp:_compare/generic/compare_equal
 
 # TODO: type detection -> auto pick comparison
 execute unless score #nbtcomp.compare.result nbtcomp.var matches 0 run function nbtcomp:types/get_types

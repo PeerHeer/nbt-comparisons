@@ -9,7 +9,7 @@ execute if score #nbtcomp.compare.numeric.integral.high.l nbtcomp.var < #nbtcomp
 execute if score #nbtcomp.compare.numeric.integral.high.l nbtcomp.var > #nbtcomp.compare.numeric.integral.high.r nbtcomp.var run scoreboard players set #nbtcomp.compare.result nbtcomp.var 1
 
 # If the high integrals are equal, compare the low integrals.
-execute if score #nbtcomp.compare.numeric.integral.high.l nbtcomp.var = #nbtcomp.compare.numeric.integral.high.r nbtcomp.var run function nbtcomp:compare/numeric/compare_low_integrals
+execute if score #nbtcomp.compare.numeric.integral.high.l nbtcomp.var = #nbtcomp.compare.numeric.integral.high.r nbtcomp.var run function nbtcomp:_compare/numeric/compare_low_integrals
 
 # DEBUG: print integrals.
 # tellraw @p ["Integral L: ",{"score":{"name":"#nbtcomp.compare.numeric.integral.high.l","objective":"nbtcomp.var"},"color":"red"},{"score":{"name":"#nbtcomp.compare.numeric.integral.low.l","objective":"nbtcomp.var"},"color":"green"}]
