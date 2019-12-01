@@ -1,2 +1,0 @@
-execute if score #nbtcomp.types.numeric.float.y_pos nbtcomp.var matches 1..65535 run function nbtcomp:types/numeric/float/fraction/tree/scoreboard/range_1_65535
-execute if score #nbtcomp.types.numeric.float.y_pos nbtcomp.var matches 65536..2147483647 run function nbtcomp:types/numeric/float/fraction/tree/scoreboard/range_65536_2147483647
