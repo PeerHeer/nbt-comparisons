@@ -12,4 +12,4 @@ The file that is first chosen is determined by the function tree in the [`scoreb
 ## Advantages
 Using this structure has one main advantage: it is faster (in most cases) than repeatedly subtracting 1 from the `#nbtcomp.types.numeric.float.y_pos` score and the local position until both are 0. For example, the number `123456789` requires only 27 steps, while using a naive method would require 123456789 steps.
 
-In short, uing powers of two ensures that all numbers are reduced to 0 in at most 30 steps.
+In short, using powers of two ensures that all numbers are reduced to 0 in at most 30 steps.
