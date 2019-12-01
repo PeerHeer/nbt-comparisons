@@ -57,3 +57,4 @@ The generic data types are represented by their length, which is computed by usi
 The lengths of the data types are compared and the result is returned.
 
 ## Acknowledgements
+Special thanks to the members of the [MinecraftCommands discord server](http://discord.gg/QAFXFtZ) and expecially to [Maxaxik](https://github.com/maxaxik) and [vdvman1](https://github.com/vdvman1) who helped me in creating the ideas for this datapack.
